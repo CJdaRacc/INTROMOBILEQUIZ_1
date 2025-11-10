@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">INTROMOBILEQUIZ_1</string>
+
+    <!-- UI texts -->
+    <string name="fetch_users">Fetch Users</string>
+
+    <!-- Messages -->
+    <string name="failed_fetch_data">Failed to fetch data.</string>
+    <string name="failed_parse_data">Failed to parse data.</string>
+    <string name="selected_user">You selected %1$s</string>
+
+    <!-- Details screen labels -->
+    <string name="user_details_title">User Details</string>
+    <string name="user_header">User #%1$d</string>
+    <string name="label_name">Name</string>
+    <string name="label_username">Username</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_website">Website</string>
+    <string name="label_address">Address</string>
+    <string name="label_company">Company</string>
+    <string name="geo_format">lat: %1$s, lng: %2$s</string>
+</resources>
