@@ -28,7 +28,7 @@
         <activity
             android:name=".UserDetailActivity"
             android:exported="false"
-            android:label="User Details"
+            android:label="@string/user_details_title"
             android:theme="@style/Theme.INTROMOBILEQUIZ_1" />
     </application>
 

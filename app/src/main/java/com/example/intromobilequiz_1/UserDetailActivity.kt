@@ -22,7 +22,7 @@ class UserDetailActivity : ComponentActivity() {
         val tvCompany: TextView = findViewById(R.id.tvCompany)
 
         user?.let {
-            tvHeader.text = "User #${it.id}"
+            tvHeader.text = getString(R.string.user_header, it.id)
             tvName.text = it.name
             tvUsername.text = it.username
             tvEmail.text = it.email
@@ -32,7 +32,7 @@ class UserDetailActivity : ComponentActivity() {
             tvAddress.text = listOf(address.street, address.suite, address.city, address.zipcode)
                 .filter { part -> part.isNotBlank() }
                 .joinToString(", ")
-            tvGeo.text = "lat: ${address.geo.lat}, lng: ${address.geo.lng}"
+            tvGeo.text = getString(R.string.geo_format, address.geo.lat, address.geo.lng)
             val company = it.company
             tvCompany.text = listOf(
                 company.name,
